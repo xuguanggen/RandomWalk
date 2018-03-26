@@ -62,11 +62,11 @@ if __name__=='__main__':
                     row_str += str(mark[i][j])+' ,'
                 print(row_str[:-1])
 
-        if num > 50000000:
-            print("超过了运动次数！！！")
-            for i in range(X):
-                row_str = ''
-                for j in range(Y):
-                    row_str += str(mark[i][j])+' ,'
-                print(row_str[:-1])
-            exit()
+        #if num > 50000000:
+        #    print("超过了运动次数！！！")
+        #    for i in range(X):
+        #        row_str = ''
+        #        for j in range(Y):
+        #            row_str += str(mark[i][j])+' ,'
+        #        print(row_str[:-1])
+        #    exit()
