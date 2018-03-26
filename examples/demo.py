@@ -8,14 +8,14 @@ from random import randint
 
 
 move = [
-        [-1,1],  # northeast
-        [0,1],   # east
-        [1,1],   # southeast
-        [1,0],   # south
-        [1,-1],  # southwest
-        [0,-1],  # west
-        [-1,-1], # northwest
-        [-1,1]   # north
+        [1,0],
+        [1,1],
+        [0,1],
+        [-1,1],
+        [-1,0],
+        [-1,-1],
+        [0,-1],
+        [1,-1]
         ]
 
 
